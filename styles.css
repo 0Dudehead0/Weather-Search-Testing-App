@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: lightgray;
+    background-image: url('https://source.unsplash.com/1920x1080/?weather');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.weather-container {
+    background-color: rgba(29, 26, 26, 0.747);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(22, 94, 104, 0.1);
+    text-align: center;
+    max-width: 450px;
+    color: rgb(150, 175, 175);
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container h1 {
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+#search-input {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+
+#search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #88aab9;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#search-button:hover {
+    background-color: #1e5261;
+}
+
+.location {
+    margin-bottom: 10;
+
+}
+
+.weather-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.weather-info img {
+    width: 50px;
+    height: 50px;
+}
+
